@@ -1,0 +1,1 @@
+ Blood Bank MERN (MongoDB, Express.js, React, Node.js) stack project . This project i setting up the development environment, creating the backend API, developing the frontend with React, implementing user authentication, and adding blood donation functionality.
