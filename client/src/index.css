@@ -1,0 +1,60 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* overflow: hidden; */
+}
+.fa-plus{
+  font-size: 34px;
+}
+
+/* ====================== FORM PAGE ======================= */
+
+.form-banner img{
+  width: 100%;
+  height: 100%;
+}
+.form-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+/* =================== Loader Js ============================== */
+
+.loader-conatiner{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: rgba(0,0,0,0.3);
+}
+.loader{
+  width: 48px;
+  height: 48px;
+  border: 5px solid #fff;
+  border-radius: 50%;
+  display: inline-block;
+  animation: rotation 1s linear infinite;
+  box-sizing: border-box;
+  border-bottom-color: #ff3d00;
+}
+@keyframes rotation{
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
+
+
+
+/* ========================= Navbar ==================== */
+.navbar-item{
+  color: #fff !important;
+}
+.nav-link, .navbar-brand{
+  color: #fff !important;
+}
